@@ -17,6 +17,14 @@ describe ("it's a fizzbuzz program", function(){
       });
     });
 
+    describe ("it should return 'FizzBuzz' if it is a multiple of 15", function(){
+      it ("For n = 15 it should return 'FizzBuzz' ", function(){
+        expect(fizzbuzz(15)).toEqual ('FizzBuzz')
+      });
+      it ("for n = 30 it should return 'FizzBuzz' ", function(){
+        expect(fizzbuzz(30)).toEqual ('FizzBuzz')
+      });
+    });
 
 
 
