@@ -35,4 +35,4 @@ describe ("it's a fizzbuzz program", function(){
         expect(fizzbuzz(4)).toEqual (4)
       });
     });
-})
+});
