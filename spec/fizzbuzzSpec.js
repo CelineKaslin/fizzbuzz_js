@@ -27,5 +27,12 @@ describe ("it's a fizzbuzz program", function(){
     });
 
 
-
+    describe ("it should return the number itself", function(){
+      it ("For n = 1 it should return 1 ", function(){
+        expect(fizzbuzz(1)).toEqual (1)
+      });
+      it ("for n = 4 it should return 4 ", function(){
+        expect(fizzbuzz(4)).toEqual (4)
+      });
+    });
 })
