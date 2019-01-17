@@ -1,4 +1,4 @@
-# Python-Fizzbuzz #
+# Javascript-Fizzbuzz #
 
 Following a strict process of TDD to build a FizzBuzz challenge in JavaScript, using the Jasmine testing framework.<br/>
 All the test have been build first. They have failed, and then I built the code to make them pass.<br/>
